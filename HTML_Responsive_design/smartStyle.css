@@ -1,0 +1,11 @@
+/*PC用のCSS */
+@media screen and(min-width: 767px){
+}
+
+/* タブレット用のCSS */
+@media screen and (max-width: 767px){
+}
+
+/* スマホ用のCSS */
+@media (max-width: 479px) {
+}
