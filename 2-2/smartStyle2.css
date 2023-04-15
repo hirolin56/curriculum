@@ -1,0 +1,38 @@
+/* タブレット用のCSS */
+@media screen and (max-width: 767px){
+    .header {
+        width: 250px;
+    }
+
+    .right {
+        width: 100px;
+    }
+
+    .footer {
+        width: 250px;
+    }
+}
+
+/* スマホ用のCSS */
+@media screen and (max-width: 479px) {
+    .header {
+        width: 150px;
+    }
+
+    .main {
+        display: block;     /* divのデフォルトのスタイル */
+    }
+    .right {
+        width: 150px;
+    }
+    .left {
+        width: 150px;
+    }
+
+    .footer {
+        width: 150px;
+    }
+
+    
+}
+

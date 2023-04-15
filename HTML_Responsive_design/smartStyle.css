@@ -1,14 +1,59 @@
-/* PC用のCSS */
+/* PC用のCSS 
 @media screen and (min-width: 767px){
-    
 }
+*/
 
 /* タブレット用のCSS */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 479px){
+    .wrapper{
+        width: 400px;
+    }
+
+    .left {
+        width: 200px;
+        height: 500px;
+    }
+
+    .left-upper {
+        width: 90px;
+        height: 60px;
+    }
+
+    .left-lower {
+        width: 90px;
+        height: 320px;
+    }
+
+    .center {
+        float: none;    /* 要素の浮動化の解除 */
+        width: 200px;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .right-inner {
+        width: 110px;
+    }
+
+    .right-inner-text {
+        font-size: 5px;
+        padding: 10px;
+        background-color: orange;
+        border: 5px solid red;
+    }
 }
 
 /* スマホ用のCSS */
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
+    .header {
+        height: 300px;
+    }
+
+    .footer {
+        height: 200px;
+    }
 }
 
 /*　コンテンツを非表示 */
