@@ -11,11 +11,15 @@ function isEven(){
 isEven();
 
 class Car{
+    constructor(gasoline, number){
+        this.gasoline = gasoline;
+        this.number = number;
+    }
     
     getNumGas(){
-        console.log('ガソリンは○○です。ナンバーは△△です。');
+        console.log('ガソリンは' + this.gasoline + 'です。ナンバーは' + this.number + 'です。');
     }
 }
 
-let car = new Car();
-car.getNumGas();
+let car = new Car('○○', '△△');
+let a = car.getNumGas();
