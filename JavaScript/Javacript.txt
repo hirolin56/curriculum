@@ -36,3 +36,12 @@ JavaScriptの基本文法
       構文
         function + 関数名(){}
 
+何から取得するか    書き方                              注意点
+id              　document.getElementById            idはHTMLに一つしか存在しない
+
+タグ              document.getElementByTagName        Elementsと複数形で書く
+
+name             document.getElementsByName          Elementsと複数形で書く
+
+class            document.getElementsByClassName     Elementsと複数形で書く
+

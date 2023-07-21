@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #myText {
+      display: none; /* 最初は非表示に設定 */
+    }
+  </style>
+</head>
+<body>
+  <button onclick="toggleText()">表示切替</button>
+  <p id="myText">ここに表示するテキスト</p>
+
+  <script>
+    function toggleText() {
+      var textElement = document.getElementById("myText");
+      if (textElement.style.display === "none") {
+        textElement.style.display = "block"; // テキストを表示
+      } else {
+        textElement.style.display = "none"; // テキストを非表示
+      }
+    }
+  </script>
+</body>
+</html>
