@@ -1,4 +1,4 @@
-package Java.Java3_1;
+package Java.Java3;
 /**
  * バブルソート
  * チェックテスト-Java３章
